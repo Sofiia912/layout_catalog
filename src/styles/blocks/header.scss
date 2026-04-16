@@ -1,7 +1,3 @@
-:root {
-  --blue: rgba(0, 172, 220, 1);
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -53,11 +49,11 @@
 }
 
 .nav__link:hover {
-  color: var(--blue);
+  color: $color-blue;
 }
 
 .nav__link.is-active {
-  color: var(--blue);
+  color: $color-blue;
   position: relative;
 }
 
@@ -68,6 +64,6 @@
   left: 0;
   width: 100%;
   height: 4px;
-  background-color: var(--blue);
+  background-color: $color-blue;
   border-radius: 8px;
 }
