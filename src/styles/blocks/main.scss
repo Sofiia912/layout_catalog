@@ -1,9 +1,11 @@
 .main {
   box-sizing: border-box;
-  padding: 50px 40px;
+  padding: $catalog-padding-v $catalog-padding-h;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
-  gap: 46px 48px;
+  grid-template-columns: repeat(auto-fill, $card-width);
+  gap: $gap-row $gap-col;
   justify-content: center;
+
+
 }
